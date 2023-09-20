@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="shortcut icon"
+      href="https://media.ng.oraimo.com/favicon/stores/1/e6f1ae92-5b4b-4a65-9996-387e720d5d8f.png"
+      type="image/x-icon"
+    />
+
+    <!-- flowbite -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <title>oraimo Nigeria official Online Store</title>
+  </head>
+  <body class="font-open-sans overflow-x-hidden box-border cursor-pointer">
+    <!-- top animation -->
+    <div class="bg-[rgb(130,230,0)] p-2 font-[600]">
+      <p class="animate-move">
+        oraimo exclusive official e-shop. For any concerns please contact
+        <a href="#" class="text-blue-500">care.ng@oraimo.com</a>
+      </p>
+    </div>
+
+    <!-- navbar -->
+    <nav class="flex md:justify-between items-center md:px-[40px] md:py-[25px]">
+      <span class="material-symbols-outlined md:hidden "> menu </span>
+      <img
+        class="w-[150px] md:mx-0 mx-auto"
+        src="https://media.ng.oraimo.com/logo/stores/1/oraimo_logo2.0.png"
+        alt="logo"
+      />
+      <div class="lg:w-[40%]  md:flex  justify-between hidden">
+        <a href="#" class="me">Home</a>
+        <a href="#" class="me">Daily Deals</a>
+        <a href="#" class="me">Products <span><i class="bi bi-chevron-down"></i></span></a>
+        <a href="#" class="me">Support <span><i class="bi bi-chevron-down"></i></span></a>
+        <a href="#" class="me">Grooming Kits</a>
+      </div>
+      <div class="flex md:w-[25%] justify-between">
+        <input
+          type="text"
+          placeholder="search for oraimo products"
+          class="max-[768px]:hidden md:border md:outline-none md:px-4 md:rounded-xl md:py-[5px] md:placeholder:text-[rgb(242,246,255)]"
+        />
+        <i class="bi bi-search md:relative px-2 sm:right-10 sm:top-2"></i>
+        <i class="bi bi-cart3 px-2"></i>
+        <i class="bi bi-person px-3"></i>
+      </div>
+    </nav>
+
+    <!-- minibar -->
+    <div class="bg-[rgb(245,245,247)] text-gray-400">
+      <div class="md:flex justify-between w-[60%] my-0 md:mx-auto py-2">
+        <p>
+          <span class="mr-[8px]"><i class="bi bi-truck"></i></span>Free Shipping
+          over #9000 in Lagos
+        </p>
+        <p class="hidden md:block">
+          <span class="mr-[8px]"><i class="bi bi-currency-dollar"></i></span
+          >Cash on Delivery
+        </p>
+        <p class="hidden md:block">
+          <span class="mr-[8px]"><i class="bi bi-shield-check"></i></span
+          >Hassle-Free Warranty
+        </p>
+      </div>
+    </div>
+
+    <!-- image slider -->
+    <div
+      id="custom-controls-gallery"
+      class="relative w-full"
+      data-carousel="slide"
+    >
+      <!-- Carousel wrapper -->
+      <div class="relative h-56 overflow-hidden rounded-lg md:h-[500px]">
+        <!-- Item 1 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img
+            src="https://media.ng.oraimo.com/weltpixel/owlcarouselslider/images/b/u/burnaboy_e105d_banner_for_gh.jpg"
+            class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            alt=""
+          />
+        </div>
+        <!-- Item 2 -->
+        <div
+          class="hidden duration-700 ease-in-out"
+          data-carousel-item="active"
+        >
+          <img
+            src="https://media.ng.oraimo.com/weltpixel/owlcarouselslider/images/o/r/oraimo_top_100.jpg"
+            class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            alt=""
+          />
+        </div>
+        <!-- Item 3 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img
+            src="https://media.ng.oraimo.com/weltpixel/owlcarouselslider/images/b/a/banner_for_homepage_sum.jpg"
+            class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            alt=""
+          />
+        </div>
+        <!-- Item 4 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img
+            src="https://media.ng.oraimo.com/weltpixel/owlcarouselslider/images/r/e/red_bot.jpg"
+            class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            alt=""
+          />
+        </div>
+        <!-- Item 5 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img
+            src="https://media.ng.oraimo.com/weltpixel/owlcarouselslider/images/2/0/20220622-195048.jpeg"
+            class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            alt=""
+          />
+        </div>
+
+        <!-- item 6 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img
+            src="https://media.ng.oraimo.com/weltpixel/owlcarouselslider/images/a/w/awards.jpg"
+            class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            alt=""
+          />
+        </div>
+
+        <!-- item 7 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img
+            src="https://media.ng.oraimo.com/weltpixel/owlcarouselslider/images/o/r/oraimo_o_club.jpg"
+            class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            alt=""
+          />
+        </div>
+
+        <!-- item 8 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img
+            src="https://media.ng.oraimo.com/weltpixel/owlcarouselslider/images/2/0/20221110-151119.jpg"
+            class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="flex justify-center items-center pt-4">
+        <button
+          type="button"
+          class="flex justify-center items-center mr-4 h-full cursor-pointer group focus:outline-none"
+          data-carousel-prev
+        >
+          <span
+            class="text-gray-400 hover:text-gray-900 dark:hover:text-white group-focus:text-gray-900 dark:group-focus:text-white"
+          >
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 14 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M13 5H1m0 0 4 4M1 5l4-4"
+              />
+            </svg>
+            <span class="sr-only">Previous</span>
+          </span>
+        </button>
+        <button
+          type="button"
+          class="flex justify-center items-center h-full cursor-pointer group focus:outline-none"
+          data-carousel-next
+        >
+          <span
+            class="text-gray-400 hover:text-gray-900 dark:hover:text-white group-focus:text-gray-900 dark:group-focus:text-white"
+          >
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 14 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 5h12m0 0L9 1m4 4L9 9"
+              />
+            </svg>
+            <span class="sr-only">Next</span>
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <!-- gallery images -->
+    <section class="w-[100%] m-[10px] md:m-[30px] grid grid-cols-2 grid-rows-2 gap-[20px]">
+      <div
+        class="w-[100%] text-white bg-cover bg-center"
+        style="
+          background-image: url(https://media.ng.oraimo.com/wysiwyg/TWS.jpg);
+        "
+      >
+        <p class="md:text-[40px] text-[30px] font-[700] mx-6 my-4">Audio</p>
+      </div>
+      <div
+        class="w-[100%] text-white bg-cover bg-center"
+        style="
+          background-image: url(https://media.ng.oraimo.com/wysiwyg/cms/20221201-164124.jpg);
+        "
+      >
+        <p class="md:text-[40px] text-[30px] font-[700] mx-6 my-4">LIFESTYLE</p>
+      </div>
+      <div
+        class="w-[100%] text-white bg-cover bg-center"
+        style="
+          background-image: url(https://media.ng.oraimo.com/wysiwyg/cms/banner_-9.20-01.jpg);
+        "
+      >
+        <p class="md:text-[40px] text-[30px] font-[700] mx-6 my-4">Power</p>
+      </div>
+      <div
+        class="w-[100%] h-[300px] text-white bg-cover bg-center"
+        style="
+          background-image: url(https://media.ng.oraimo.com/wysiwyg/cms/_-32N.jpg.jpeg);
+        "
+      >
+        <p class="md:text-[40px] text-[30px]font-[700] mx-6 my-4">Wearable</p>
+      </div>
+    </section>
+
+    <!-- product section -->
+    <section class="p-10">
+      <div class="text-center">
+        <p class="text-[35px] font-[700]">Product Display</p>
+        <p class="mt-4 text-gray-400">Up to 50% off</p>
+      </div>
+
+      <div
+        class="w-[100%] text-center grid lg:grid-cols-4 gap-2 md:grid-cols-3 sm:grid-cols-2"
+      >
+        <div class="text-center flex flex-col justify-center items-center">
+          <img
+            src="https://media.ng.oraimo.com/catalog/product/cache/3a346770ef58757f32973991e3c11754/o/p/opc-cl30_680_-07.jpg"
+            alt=""
+          />
+          <p class="font-[700] hover:underline">
+            Oriamo Smartclipper2 Super Powerful Professional Cordless Hair
+            Clipper 150-
+          </p>
+          <div class="flex">
+            <div class="flex text-yellow-400">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div>48 Reviews</div>
+          </div>
+          <p class="text-[rgb(75,210,149)] font-[700]">
+            <s class="text-black px-1">#20,900</s>#18,500
+          </p>
+        </div>
+
+        <div class="text-center flex flex-col justify-center items-center">
+          <img
+            src="https://media.ng.oraimo.com/catalog/product/cache/3a346770ef58757f32973991e3c11754/0/1/01dn_.jpg"
+            alt=""
+          />
+          <p class="font-[700] hover:underline">
+            Oriamo Smartclipper2 Super Powerful Professional Cordless Hair
+            Clipper 150-
+          </p>
+          <div class="flex">
+            <div class="flex text-yellow-400">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div>48 Reviews</div>
+          </div>
+          <p class="text-[rgb(75,210,149)] font-[700]">
+            <s class="text-black px-1">#20,900</s>#18,500
+          </p>
+        </div>
+
+        <div class="text-center flex flex-col justify-center items-center">
+          <img
+            src="https://media.ng.oraimo.com/catalog/product/cache/3a346770ef58757f32973991e3c11754/o/p/opb-p272dn-mixed.jpg"
+            alt=""
+          />
+          <p class="font-[700] hover:underline">
+            Oriamo Smartclipper2 Super Powerful Professional Cordless Hair
+            Clipper 150-
+          </p>
+          <div class="flex">
+            <div class="flex text-yellow-400">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div>48 Reviews</div>
+          </div>
+          <p class="text-[rgb(75,210,149)] font-[700]">
+            <s class="text-black px-1">#20,900</s>#18,500
+          </p>
+        </div>
+
+        <div class="text-center flex flex-col justify-center items-center">
+          <img
+            class=""
+            src="https://media.ng.oraimo.com/catalog/product/cache/3a346770ef58757f32973991e3c11754/_/9/_9.jpg"
+            alt=""
+          />
+          <p class="font-[700] hover:underline">
+            Oriamo Smartclipper2 Super Powerful Professional Cordless Hair
+            Clipper 150-
+          </p>
+          <div class="flex">
+            <div class="flex text-yellow-400">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div>48 Reviews</div>
+          </div>
+          <p class="text-[rgb(75,210,149)] font-[700]">
+            <s class="text-black px-1">#20,900</s>#18,500
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- New Arrivals -->
+    <section class="p-10">
+      <div class="text-center">
+        <p class="text-[35px] font-[700]">New Arrivals</p>
+        <p class="mt-4 text-gray-400">
+          All new arrival products and trends here!
+        </p>
+      </div>
+
+      <div
+        class="w-[100%] grid lg:grid-cols-4 gap-2 md:grid-cols-3 sm:grid-cols-2"
+      >
+        <div class="text-center flex flex-col justify-center items-center">
+          <img
+            class="text-center"
+            src="https://media.ng.oraimo.com/catalog/product/cache/3a346770ef58757f32973991e3c11754/a/n/anifast_400q.jpg"
+            alt=""
+          />
+          <p class="font-[700] hover:underline">
+            Oriamo Smartclipper2 Super Powerful Professional Cordless Hair
+            Clipper 150-
+          </p>
+          <div class="flex">
+            <div class="flex text-yellow-400">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div>48 Reviews</div>
+          </div>
+          <p class="text-[rgb(75,210,149)] font-[700]">
+            <s class="text-black px-1">#20,900</s>#18,500
+          </p>
+        </div>
+
+        <div class="text-center flex flex-col justify-center items-center">
+          <img
+            class=""
+            src="https://media.ng.oraimo.com/catalog/product/cache/3a346770ef58757f32973991e3c11754/o/p/opc-rs21n_687_.jpg"
+            alt=""
+          />
+          <p class="font-[700] hover:underline">
+            Oriamo Smartclipper2 Super Powerful Professional Cordless Hair
+            Clipper 150-
+          </p>
+          <div class="flex">
+            <div class="flex text-yellow-400">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div>48 Reviews</div>
+          </div>
+          <p class="text-[rgb(75,210,149)] font-[700]">
+            <s class="text-black px-1">#20,900</s>#18,500
+          </p>
+        </div>
+
+        <div class="text-center flex flex-col justify-center items-center">
+          <img
+            class=""
+            src="https://media.ng.oraimo.com/catalog/product/cache/3a346770ef58757f32973991e3c11754/o/p/opn_-02.jpg"
+            alt=""
+          />
+          <p class="font-[700] hover:underline">
+            Oriamo Smartclipper2 Super Powerful Professional Cordless Hair
+            Clipper 150-
+          </p>
+          <div class="flex">
+            <div class="flex text-yellow-400">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div>48 Reviews</div>
+          </div>
+          <p class="text-[rgb(75,210,149)] font-[700]">
+            <s class="text-black px-1">#20,900</s>#18,500
+          </p>
+        </div>
+
+        <div class="text-center flex flex-col justify-center items-center">
+          <img
+            class=""
+            src="https://media.ng.oraimo.com/catalog/product/cache/3a346770ef58757f32973991e3c11754/r/s/rs20.jpg"
+            alt=""
+          />
+          <p class="font-[700] hover:underline">
+            Oriamo Smartclipper2 Super Powerful Professional Cordless Hair
+            Clipper 150-
+          </p>
+          <div class="flex">
+            <div class="flex text-yellow-400">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div>48 Reviews</div>
+          </div>
+          <p class="text-[rgb(75,210,149)] font-[700]">
+            <s class="text-black px-1">#20,900</s>#18,500
+          </p>
+        </div>
+
+        <div class="text-center flex flex-col justify-center items-center">
+          <img
+            class="text-center"
+            src="https://media.ng.oraimo.com/catalog/product/cache/3a346770ef58757f32973991e3c11754/d/e/delta-2_680_.jpg"
+            alt=""
+          />
+          <p class="font-[700] hover:underline">
+            Oriamo Smartclipper2 Super Powerful Professional Cordless Hair
+            Clipper 150-
+          </p>
+          <div class="flex">
+            <div class="flex text-yellow-400">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div>48 Reviews</div>
+          </div>
+          <p class="text-[rgb(75,210,149)] font-[700]">
+            <s class="text-black px-1">#20,900</s>#18,500
+          </p>
+        </div>
+
+        <div class="text-center flex flex-col justify-center items-center">
+          <img
+            class=""
+            src="https://media.ng.oraimo.com/catalog/product/cache/3a346770ef58757f32973991e3c11754/o/p/opc-hd1_680_-.jpg"
+            alt=""
+          />
+          <p class="font-[700] hover:underline">
+            Oriamo Smartclipper2 Super Powerful Professional Cordless Hair
+            Clipper 150-
+          </p>
+          <div class="flex">
+            <div class="flex text-yellow-400">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div>48 Reviews</div>
+          </div>
+          <p class="text-[rgb(75,210,149)] font-[700]">
+            <s class="text-black px-1">#20,900</s>#18,500
+          </p>
+        </div>
+
+        <div class="text-center flex flex-col justify-center items-center">
+          <img
+            class=""
+            src="https://media.ng.oraimo.com/catalog/product/cache/3a346770ef58757f32973991e3c11754/o/e/oeb-e04d-usp-1.jpg"
+            alt=""
+          />
+          <p class="font-[700] hover:underline">
+            Oriamo Smartclipper2 Super Powerful Professional Cordless Hair
+            Clipper 150-
+          </p>
+          <div class="flex">
+            <div class="flex text-yellow-400">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div>48 Reviews</div>
+          </div>
+          <p class="text-[rgb(75,210,149)] font-[700]">
+            <s class="text-black px-1">#20,900</s>#18,500
+          </p>
+        </div>
+
+        <div class="text-center flex flex-col justify-center items-center">
+          <img
+            class=""
+            src="https://media.ng.oraimo.com/catalog/product/cache/3a346770ef58757f32973991e3c11754/i/m/img_v2_87cd536c-4ac6-431e-8e8b-60488c9cc92g.jpg"
+            alt=""
+          />
+          <p class="font-[700] hover:underline">
+            Oriamo Smartclipper2 Super Powerful Professional Cordless Hair
+            Clipper 150-
+          </p>
+          <div class="flex">
+            <div class="flex text-yellow-400">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div>48 Reviews</div>
+          </div>
+          <p class="text-[rgb(75,210,149)] font-[700]">
+            <s class="text-black px-1">#20,900</s>#18,500
+          </p>
+        </div>
+
+        <div class="text-center flex flex-col justify-center items-center">
+          <img
+            class="text-center"
+            src="https://media.ng.oraimo.com/catalog/product/cache/3a346770ef58757f32973991e3c11754/f/i/file_1.png"
+            alt=""
+          />
+          <p class="font-[700] hover:underline">
+            Oriamo Smartclipper2 Super Powerful Professional Cordless Hair
+            Clipper 150-
+          </p>
+          <div class="flex">
+            <div class="flex text-yellow-400">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div>48 Reviews</div>
+          </div>
+          <p class="text-[rgb(75,210,149)] font-[700]">
+            <s class="text-black px-1">#20,900</s>#18,500
+          </p>
+        </div>
+
+        <div class="text-center flex flex-col justify-center items-center">
+          <img
+            class=""
+            src="https://media.ng.oraimo.com/catalog/product/cache/3a346770ef58757f32973991e3c11754/o/e/oeb-e104dc_680_-12.jpg"
+            alt=""
+          />
+          <p class="font-[700] hover:underline">
+            Oriamo Smartclipper2 Super Powerful Professional Cordless Hair
+            Clipper 150-
+          </p>
+          <div class="flex">
+            <div class="flex text-yellow-400">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div>48 Reviews</div>
+          </div>
+          <p class="text-[rgb(75,210,149)] font-[700]">
+            <s class="text-black px-1">#20,900</s>#18,500
+          </p>
+        </div>
+
+        <div class="text-center flex flex-col justify-center items-center">
+          <img
+            class=""
+            src="https://media.ng.oraimo.com/catalog/product/cache/3a346770ef58757f32973991e3c11754/o/e/oeb-e104dc_680_-13.jpg"
+            alt=""
+          />
+          <p class="font-[700] hover:underline">
+            Oriamo Smartclipper2 Super Powerful Professional Cordless Hair
+            Clipper 150-
+          </p>
+          <div class="flex">
+            <div class="flex text-yellow-400">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div>48 Reviews</div>
+          </div>
+          <p class="text-[rgb(75,210,149)] font-[700]">
+            <s class="text-black px-1">#20,900</s>#18,500
+          </p>
+        </div>
+
+        <div class="text-center flex flex-col justify-center items-center">
+          <img
+            class=""
+            src="https://media.ng.oraimo.com/catalog/product/cache/3a346770ef58757f32973991e3c11754/o/c/ocw-ew1-1-680.jpg"
+            alt=""
+          />
+          <p class="font-[700] hover:underline">
+            Oriamo Smartclipper2 Super Powerful Professional Cordless Hair
+            Clipper 150-
+          </p>
+          <div class="flex">
+            <div class="flex text-yellow-400">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div>48 Reviews</div>
+          </div>
+          <p class="text-[rgb(75,210,149)] font-[700]">
+            <s class="text-black px-1">#20,900</s>#18,500
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER section -->
+    <section class="bg-[rgb(50,50,50)]">
+      <div id="accordion-collapse" data-accordion="collapse">
+        <h2 id="accordion-collapse-heading-3">
+          <button
+            type="button"
+            class="flex items-center justify-between w-full p-5 font-medium text-left text-white border "
+            data-accordion-target="#accordion-collapse-body-3"
+            aria-expanded="false"
+            aria-controls="accordion-collapse-body-3"
+          >
+            <span>NEWSLETTER</span>
+            <svg
+              data-accordion-icon
+              class="w-3 h-3 rotate-180 shrink-0"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 10 6"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5 5 1 1 5"
+              />
+            </svg>
+          </button>
+        </h2>
+        <div
+          id="accordion-collapse-body-3"
+          class="hidden"
+          aria-labelledby="accordion-collapse-heading-3"
+        >
+          <div
+            class="p-5 border border-t-0 border-gray-200 dark:border-gray-700 text-[#999]"
+          >
+            <p class="p-[10px] py-2">
+              Get the Latest oraimo News and Giveaways
+            </p>
+
+            <form
+              class="w-[80%] mx-auto border text-[#999] flex justify-between items-center h-[2.5em] rounded-[50px]"
+            >
+              <div class="flex w-[70%]">
+                <span class="p-2 w-[10%]"><i class="bi bi-envelope"></i></span>
+                <label for="Email" class="w-[100%] outline-[none]">
+                  <input
+                    class="bg-transparent w-[100%] outline-[none] border-none"
+                    type="text"
+                    placeholder="Enter your Email Address"
+                    name="newsletter"
+                  />
+                </label>
+              </div>
+
+              <p
+                class="bg-[rgb(100,100,100)] w-[30%] text-white py-1 px-5 mr-1 rounded-[50px]"
+              >
+                Subscribe
+              </p>
+            </form>
+
+            <p class="py-2">SERVICE HOURS: Monday-Friday 9AM to 8PM</p>
+            <p class="py-2">
+              CUSTOMER SERVICE: +234 818 135 3103（First Choice） +234 809 604
+              0753
+            </p>
+            <p class="py-2">Whatsapp: +234 901 627 9193 +234 818 642 3337</p>
+          </div>
+        </div>
+
+        <h2 id="accordion-collapse-heading-1">
+          <button
+            type="button"
+            class="flex items-center justify-between w-full p-5 font-medium text-left text-white border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800"
+            data-accordion-target="#accordion-collapse-body-1"
+            aria-expanded="false"
+            aria-controls="accordion-collapse-body-1"
+          >
+            <span>ORAIMO</span>
+            <svg
+              data-accordion-icon
+              class="w-3 h-3 rotate-180 shrink-0"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 10 6"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5 5 1 1 5"
+              />
+            </svg>
+          </button>
+        </h2>
+        <div
+          id="accordion-collapse-body-1"
+          class="hidden"
+          aria-labelledby="accordion-collapse-heading-1"
+        >
+          <div
+            class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900"
+          >
+            <p class="mb-2 text-[#999] dark:text-gray-400">About us</p>
+            <p class="mb-2 text-[#999] dark:text-gray-400">Where to buy</p>
+            <p class="text-[#999] dark:text-gray-400">Special offers</p>
+          </div>
+        </div>
+        <h2 id="accordion-collapse-heading-2">
+          <button
+            type="button"
+            class="flex items-center justify-between w-full p-5 font-medium text-left text-white border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800"
+            data-accordion-target="#accordion-collapse-body-2"
+            aria-expanded="false"
+            aria-controls="accordion-collapse-body-2"
+          >
+            <span>TERMS</span>
+            <svg
+              data-accordion-icon
+              class="w-3 h-3 rotate-180 shrink-0"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 10 6"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5 5 1 1 5"
+              />
+            </svg>
+          </button>
+        </h2>
+        <div
+          id="accordion-collapse-body-2"
+          class="hidden"
+          aria-labelledby="accordion-collapse-heading-2"
+        >
+          <div
+            class="p-5 border border-b-0 border-gray-200 dark:border-gray-700"
+          >
+            <p class="mb-2 text-[#999] dark:text-gray-400">Warranty</p>
+            <p class="text-[#999] dark:text-gray-400">Order & shipping</p>
+            <p class="mb-2 text-[#999] dark:text-gray-400">
+              Replacement and refund
+            </p>
+            <p class="mb-2 text-[#999] dark:text-gray-400">Terms & condition</p>
+            <p class="mb-2 text-[#999] dark:text-gray-400">Privacy Policy</p>
+          </div>
+        </div>
+        <h2 id="accordion-collapse-heading-4">
+          <button
+            type="button"
+            class="flex items-center justify-between w-full p-5 font-medium text-left text-white border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
+            data-accordion-target="#accordion-collapse-body-4"
+            aria-expanded="false"
+            aria-controls="accordion-collapse-body-4"
+          >
+            <span>GET HELP</span>
+            <svg
+              data-accordion-icon
+              class="w-3 h-3 rotate-180 shrink-0"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 10 6"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5 5 1 1 5"
+              />
+            </svg>
+          </button>
+        </h2>
+        <div
+          id="accordion-collapse-body-4"
+          class="hidden"
+          aria-labelledby="accordion-collapse-heading-4"
+        >
+          <div
+            class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+          >
+            <p class="mb-2 text-[#999] dark:text-gray-400">Visit Carlcare</p>
+            <p class="mb-2 text-[#999] dark:text-gray-400">Track Your Order</p>
+            <p class="mb-2 text-[#999] dark:text-gray-400">Contact Us</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-black h-[170px] text-[#646464] text-center">
+      <div class="w-50% mx-auto">
+        <img
+          class="pt-10 pb-3 mx-auto"
+          src="https://media.ng.oraimo.com/wysiwyg/cms/flogo.png"
+          alt="oraimo"
+        />
+        <p>&copy; 2013-2023 oraimo Copyright. oraimo Technology (HK) Ltd</p>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+  </body>
+</html>
