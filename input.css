@@ -2,28 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-@apply{
-
-    @keyframes move {
-        from {
-            transform: translateX(100%);
+@apply {
+  .animate-move {
+    position: relative;
+    animation: move 13s linear infinite;
   }
-  to {
-    transform: translateX(-100%);
-  }
-}
 
-.animate-move {
-  position: relative;
-  animation: move 13s linear infinite;
-}
-.me {
-  font-weight: 600;
-  font-size: 15px;
-  padding-left: 10px;
-}
-.me:hover {
+  @keyframes move {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  .me {
+    font-weight: 600;
+    font-size: 15px;
+    padding-left: 10px;
+  }
+  .me:hover {
     color: rgb(130, 230, 0);
-}
-
+  }
 }
