@@ -2,9 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@keyframes move {
-  from {
-    transform: translateX(100%);
+@apply{
+
+    @keyframes move {
+        from {
+            transform: translateX(100%);
   }
   to {
     transform: translateX(-100%);
@@ -21,5 +23,7 @@
   padding-left: 10px;
 }
 .me:hover {
-  color: rgb(130, 230, 0);
+    color: rgb(130, 230, 0);
+}
+
 }

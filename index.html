@@ -33,7 +33,7 @@
     />
     <title>oraimo Nigeria official Online Store</title>
   </head>
-  <body class="font-open-sans overflow-x-hidden box-border cursor-pointer">
+  <body class="font-open-sans overflow-x-hidden box-border">
     <!-- top animation -->
     <div class="bg-[rgb(130,230,0)] p-2 font-[600]">
       <p class="animate-move">
@@ -44,17 +44,21 @@
 
     <!-- navbar -->
     <nav class="flex md:justify-between items-center md:px-[40px] md:py-[25px]">
-      <span class="material-symbols-outlined md:hidden "> menu </span>
+      <span class="material-symbols-outlined md:hidden"> menu </span>
       <img
         class="w-[150px] md:mx-0 mx-auto"
         src="https://media.ng.oraimo.com/logo/stores/1/oraimo_logo2.0.png"
         alt="logo"
       />
-      <div class="lg:w-[40%]  md:flex  justify-between hidden">
+      <div class="lg:w-[40%] md:flex justify-between hidden">
         <a href="#" class="me">Home</a>
         <a href="#" class="me">Daily Deals</a>
-        <a href="#" class="me">Products <span><i class="bi bi-chevron-down"></i></span></a>
-        <a href="#" class="me">Support <span><i class="bi bi-chevron-down"></i></span></a>
+        <a href="#" class="me"
+          >Products <span><i class="bi bi-chevron-down"></i></span
+        ></a>
+        <a href="#" class="me"
+          >Support <span><i class="bi bi-chevron-down"></i></span
+        ></a>
         <a href="#" class="me">Grooming Kits</a>
       </div>
       <div class="flex md:w-[25%] justify-between">
@@ -73,8 +77,8 @@
     <div class="bg-[rgb(245,245,247)] text-gray-400">
       <div class="md:flex justify-between w-[60%] my-0 md:mx-auto py-2">
         <p>
-          <span class="mr-[8px]"><i class="bi bi-truck"></i></span>Free Shipping
-          over #9000 in Lagos
+          <span class="md:mr-[8px]"><i class="bi bi-truck"></i></span>Free
+          Shipping over #9000 in Lagos
         </p>
         <p class="hidden md:block">
           <span class="mr-[8px]"><i class="bi bi-currency-dollar"></i></span
@@ -223,7 +227,9 @@
     </div>
 
     <!-- gallery images -->
-    <section class="w-[100%] m-[10px] md:m-[30px] grid grid-cols-2 grid-rows-2 gap-[20px]">
+    <section
+      class="w-[100%] m-[10px] md:m-[30px] grid grid-cols-2 grid-rows-2 gap-[20px]"
+    >
       <div
         class="w-[100%] text-white bg-cover bg-center"
         style="
@@ -260,13 +266,13 @@
 
     <!-- product section -->
     <section class="p-10">
-      <div class="text-center">
+      <div class="text-center ">
         <p class="text-[35px] font-[700]">Product Display</p>
         <p class="mt-4 text-gray-400">Up to 50% off</p>
       </div>
 
       <div
-        class="w-[100%] text-center grid lg:grid-cols-4 gap-2 md:grid-cols-3 sm:grid-cols-2"
+        class=" text-center grid lg:grid-cols-4 gap-2 md:grid-cols-3 grid-cols-2"
       >
         <div class="text-center flex flex-col justify-center items-center">
           <img
@@ -377,7 +383,7 @@
       </div>
 
       <div
-        class="w-[100%] grid lg:grid-cols-4 gap-2 md:grid-cols-3 sm:grid-cols-2"
+        class=" grid lg:grid-cols-4 gap-2 md:grid-cols-3 grid-cols-2"
       >
         <div class="text-center flex flex-col justify-center items-center">
           <img
@@ -687,7 +693,7 @@
         <h2 id="accordion-collapse-heading-3">
           <button
             type="button"
-            class="flex items-center justify-between w-full p-5 font-medium text-left text-white border "
+            class="flex items-center justify-between w-full p-5 font-medium text-left text-white border"
             data-accordion-target="#accordion-collapse-body-3"
             aria-expanded="false"
             aria-controls="accordion-collapse-body-3"
@@ -786,12 +792,10 @@
           class="hidden"
           aria-labelledby="accordion-collapse-heading-1"
         >
-          <div
-            class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900"
-          >
-            <p class="mb-2 text-[#999] dark:text-gray-400">About us</p>
-            <p class="mb-2 text-[#999] dark:text-gray-400">Where to buy</p>
-            <p class="text-[#999] dark:text-gray-400">Special offers</p>
+          <div class="p-5 border border-b-0 border-gray-200">
+            <p class="mb-2 text-[#999]">About us</p>
+            <p class="mb-2 text-[#999]">Where to buy</p>
+            <p class="text-[#999]">Special offers</p>
           </div>
         </div>
         <h2 id="accordion-collapse-heading-2">
@@ -826,16 +830,12 @@
           class="hidden"
           aria-labelledby="accordion-collapse-heading-2"
         >
-          <div
-            class="p-5 border border-b-0 border-gray-200 dark:border-gray-700"
-          >
-            <p class="mb-2 text-[#999] dark:text-gray-400">Warranty</p>
-            <p class="text-[#999] dark:text-gray-400">Order & shipping</p>
-            <p class="mb-2 text-[#999] dark:text-gray-400">
-              Replacement and refund
-            </p>
-            <p class="mb-2 text-[#999] dark:text-gray-400">Terms & condition</p>
-            <p class="mb-2 text-[#999] dark:text-gray-400">Privacy Policy</p>
+          <div class="p-5 border border-b-0">
+            <p class="mb-2 text-[#999]">Warranty</p>
+            <p class="text-[#999]">Order & shipping</p>
+            <p class="mb-2 text-[#999]">Replacement and refund</p>
+            <p class="mb-2 text-[#999]">Terms & condition</p>
+            <p class="mb-2 text-[#999]">Privacy Policy</p>
           </div>
         </div>
         <h2 id="accordion-collapse-heading-4">
@@ -870,12 +870,10 @@
           class="hidden"
           aria-labelledby="accordion-collapse-heading-4"
         >
-          <div
-            class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
-          >
-            <p class="mb-2 text-[#999] dark:text-gray-400">Visit Carlcare</p>
-            <p class="mb-2 text-[#999] dark:text-gray-400">Track Your Order</p>
-            <p class="mb-2 text-[#999] dark:text-gray-400">Contact Us</p>
+          <div class="p-5 border border-t-0">
+            <p class="mb-2 text-[#999]">Visit Carlcare</p>
+            <p class="mb-2 text-[#999]">Track Your Order</p>
+            <p class="mb-2 text-[#999]">Contact Us</p>
           </div>
         </div>
       </div>
